@@ -1,113 +1,322 @@
-# Agentic AI Marketing Intelligence System
+# 🤖 Agentic AI Marketing Intelligence System
 
-An autonomous, multi-agent AI software system that creates a privacy-safe synthetic business context, analyzes it, formulates a 7-day content strategy, and autonomously generates the complete first-week content set (5 Instagram posts and 2 reels).
+> An autonomous multi-agent AI platform that generates a complete 7-day marketing campaign from a synthetic business context using Large Language Models, AI-generated media, and an agentic orchestration pipeline.
 
-## 🚀 Overview
+---
 
-This platform uses a modular, agentic architecture powered by LLMs (Google Gemini), Pollinations API (for zero-cost image generation), and MoviePy (for programmatic video generation). The entire workflow executes autonomously while strictly adhering to a **₹100 budget cap**.
+## 📌 Project Overview
 
-**Final Project Spend:** ₹0.00 
+This project was developed as part of an AI Engineering technical assessment.
 
-## 🧠 Architecture Diagram
+The system autonomously creates a complete first-week social media marketing campaign for a synthetic business by coordinating multiple specialized AI agents.
 
-The system operates as a sequential pipeline of specialized agents. Each agent handles a distinct part of the reasoning and generation process, passing structured Pydantic models to the next via a centralized `Memory` store.
+Starting with a business profile, the platform:
 
-    +-----------------------+
-    |  Orchestrator (Main)  |
-    +-----------+-----------+
-                |
-    +-----------v-----------+
-    | 1. SyntheticContextAgent: Defines the business
-    | 2. BusinessAnalysisAgent: Finds gaps/opportunities
-    | 3. MarketingStrategyAgent: Defines week objective
-    | 4. WeeklyPlannerAgent: Plans 5 posts & 2 videos
-    +-----------+-----------+
-                |
-    +-----------v-----------+
-    | 5. ContentGenerationAgent: Writes captions & hooks
-    | 6. ImageGenerationAgent: Renders static posts
-    | 7. VideoGenerationAgent: Renders MP4 reels
-    +-----------+-----------+
-                |
-    +-----------v-----------+
-    | 8. ReviewerAgent: Validates brand consistency
-    | 9. PackagingAgent: Compiles outputs & logs
-    +-----------------------+
+- Generates a synthetic business context
+- Performs business and market analysis
+- Creates a marketing strategy
+- Plans a 7-day content calendar
+- Generates engaging captions and marketing copy
+- Produces AI-generated Instagram posts
+- Creates promotional reels
+- Reviews generated content for consistency
+- Packages all outputs with execution logs
 
-## 📁 Folder Structure
+The complete workflow executes automatically while maintaining a **strict budget limit of ₹100**, with an actual execution cost of **₹0.00**.
 
+---
+
+# ✨ Features
+
+- ✅ Multi-Agent AI Architecture
+- ✅ Autonomous Workflow Execution
+- ✅ Business Context Generation
+- ✅ Marketing Strategy Generation
+- ✅ Weekly Content Planning
+- ✅ AI Caption Generation
+- ✅ AI Image Generation
+- ✅ Automated Reel Creation
+- ✅ Structured Agent Memory
+- ✅ Budget Tracking
+- ✅ Execution Logging
+- ✅ Modular & Scalable Architecture
+
+---
+
+# 🏗️ System Architecture
+
+```text
+                         Orchestrator
+                              │
+                              ▼
+                SyntheticContextAgent
+                              │
+                              ▼
+               BusinessAnalysisAgent
+                              │
+                              ▼
+              MarketingStrategyAgent
+                              │
+                              ▼
+                 WeeklyPlannerAgent
+                              │
+                              ▼
+              ContentGenerationAgent
+                              │
+                              ▼
+               MediaGenerationAgent
+                    │                │
+                    ▼                ▼
+             Image Generator    Video Generator
+                    │                │
+                    └──────┬─────────┘
+                           ▼
+                   ReviewerAgent
+                           │
+                           ▼
+                  PackagingAgent
+                           │
+                           ▼
+                  Final Deliverables
+```
+
+---
+
+# 🧠 AI Agents
+
+| Agent | Responsibility |
+|-------|----------------|
+| SyntheticContextAgent | Generates a realistic business profile |
+| BusinessAnalysisAgent | Identifies opportunities and challenges |
+| MarketingStrategyAgent | Creates marketing objectives |
+| WeeklyPlannerAgent | Plans the weekly campaign |
+| ContentGenerationAgent | Generates captions and prompts |
+| MediaGenerationAgent | Produces AI images and promotional videos |
+| ReviewerAgent | Validates brand tone and content quality |
+| PackagingAgent | Compiles final outputs and logs |
+
+---
+
+# 📁 Project Structure
+
+```text
 VaishaliModi_TrapeziumAI/
 │
-├── core/                       # Core engine mechanics
-│   ├── logger.py               # Centralized observability
-│   ├── memory.py               # Shared agent state management
-│   └── spend_tracker.py        # Strict budget enforcement
+├── agents/
+│   ├── base_agent.py
+│   ├── context_agent.py
+│   ├── analysis_agent.py
+│   ├── strategy_agent.py
+│   ├── content_agent.py
+│   ├── media_agent.py
+│   ├── review_agent.py
+│   └── packaging_agent.py
+│
+├── core/
+│   ├── logger.py
+│   ├── memory.py
+│   └── spend_tracker.py
 │
 ├── models/
-│   └── schemas.py              # Pydantic JSON schemas for agents
-│
-├── agents/                     # The multi-agent brain trust
-│   ├── base_agent.py           # Base class with retry & LLM setup
-│   ├── context_agent.py        # Generates business context
-│   ├── analysis_agent.py       # Context analysis
-│   ├── strategy_agent.py       # Strategy & weekly planning
-│   ├── content_agent.py        # Copywriting and prompts
-│   ├── media_agent.py          # Images (Pollinations) & Videos (MoviePy)
-│   ├── review_agent.py         # Tone and brand validation
-│   └── packaging_agent.py      # Final output compilation
+│   └── schemas.py
 │
 ├── tests/
-│   └── test_agents.py          # Pytest suite for framework validation
+│   └── test_agents.py
 │
-├── outputs/                    # Generated Deliverables
-│   ├── day_X_post.jpg          # Generated images
-│   ├── day_X_reel.mp4          # Generated videos
-│   ├── execution_trace.log     # Observability and agent decisions
-│   ├── memory.json             # Structured outputs & state dump
-│   └── spend_log.json          # Cost tracking
+├── outputs/
+│   ├── day_1_post.jpg
+│   ├── day_2_post.jpg
+│   ├── day_3_post.jpg
+│   ├── day_4_post.jpg
+│   ├── day_5_post.jpg
+│   ├── day_6_reel.mp4
+│   ├── day_7_reel.mp4
+│   ├── execution_trace.log
+│   ├── spend_log.json
+│   └── memory.json
 │
-├── main.py                     # Entry point orchestrator
-└── README.md                   # This file
+├── main.py
+├── README.md
+└── .env
+```
 
-## ⚙️ Environment Variables
+---
 
-To run this project, you need to provide a Gemini API key. If the key is absent, the system gracefully falls back to mock inference to prevent hard crashes and demonstrate the pipeline logic.
+# 🚀 Technology Stack
 
-Create a `.env` file in the root directory (or export it to your shell):
+- Python 3.11
+- Google Gemini API
+- Pydantic
+- MoviePy
+- Pollinations AI
+- Requests
+- Pillow
+- OpenCV
+- Pytest
+- Python-dotenv
+
+---
+
+# ⚙️ Environment Variables
+
+Create a `.env` file inside the project directory.
+
+```env
 GEMINI_API_KEY=your_gemini_api_key_here
+```
 
-## 🛠️ Installation Guide
+If no API key is provided, the application automatically falls back to mock inference, allowing the workflow to execute without failure.
 
-1. **Clone or download the project** and navigate into the directory.
-2. **Set up a Python virtual environment:**
-   python3 -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-3. **Install dependencies:**
-   pip install google-genai pydantic moviepy pytest requests pillow opencv-python pydantic-settings python-dotenv
+---
 
-## 💻 Usage Guide
+# 📦 Installation
 
-**Run the autonomous workflow:**
+Clone the repository
+
+```bash
+git clone https://github.com/Modiv2005/Submission.git
+```
+
+Navigate to the project
+
+```bash
+cd Submission
+```
+
+Create a virtual environment
+
+```bash
+python -m venv venv
+```
+
+Activate the environment
+
+### Windows
+
+```bash
+venv\Scripts\activate
+```
+
+### macOS/Linux
+
+```bash
+source venv/bin/activate
+```
+
+Install dependencies
+
+```bash
+pip install google-genai pydantic moviepy pytest requests pillow opencv-python pydantic-settings python-dotenv
+```
+
+---
+
+# ▶️ Run the Project
+
+```bash
 PYTHONPATH=. python main.py
+```
 
-*Note: The script takes about 2-3 minutes to run as it sequentially generates 5 images via the API and renders 2 videos programmatically.*
+Execution takes approximately **2–3 minutes** while the system generates images and promotional reels.
 
-**Run the tests:**
+---
+
+# 🧪 Run Tests
+
+```bash
 PYTHONPATH=. pytest tests/
+```
 
-## 📚 Prompt Library & APIs
+---
 
-- **LLM Reasoning**: Handled via `google-genai` (Gemini 2.5 Pro). Prompts are heavily structured to enforce JSON outputs via Pydantic schemas.
-- **Image Generation**: Handled via `image.pollinations.ai`. The `ContentGenerationAgent` creates specific visual descriptions which are URL-encoded and fetched securely.
-- **Video Generation**: Uses `MoviePy`. The `ContentGenerationAgent` scripts short 5-second dynamic text reels, which are natively rendered using Python.
+# 📦 Generated Deliverables
 
-## 🛑 Known Limitations
+The system automatically generates:
 
-- **Video Complexity**: To keep costs strictly at ₹0.00 without relying on heavily watermarked or gated APIs, video generation relies on programmatic text-on-background rendering via MoviePy.
-- **Human-in-the-Loop Mocking**: Currently, if the `ReviewerAgent` flags a piece of content as inappropriate, it logs a warning but proceeds with packaging. In a full production environment, this would halt execution and trigger a manual CLI/UI prompt.
+- 📸 5 Instagram Post Images
+- 🎬 2 Promotional Reels
+- 📝 Marketing Captions
+- 📄 Execution Logs
+- 💾 Shared Agent Memory
+- 💰 Budget Tracking Logs
 
-## 🔮 Future Improvements
+---
 
-1. **Agentic Framework Integration**: Migrate the custom `BaseAgent` class to LangGraph for advanced cyclic routing (e.g., automatically looping a failed image generation back to the Prompt Agent for adjustments).
-2. **Social Media API Integration**: Add an `ExportAgent` that connects to Meta's Graph API to push approved assets directly to Instagram Drafts.
-3. **Multimodal Review**: Pass the generated image bytes back into a Vision-capable LLM for the `ReviewerAgent` to verify that the image matches the prompt contextually.
+# 💰 Budget Report
+
+| Resource | Cost |
+|-----------|------|
+| Google Gemini (Free Tier) | ₹0 |
+| Pollinations AI | ₹0 |
+| MoviePy | ₹0 |
+| Python Libraries | ₹0 |
+| **Total Cost** | **₹0.00** |
+
+---
+
+# 📊 APIs & Libraries Used
+
+### Google Gemini
+
+Used for:
+
+- Business reasoning
+- Marketing strategy
+- Content generation
+- Structured JSON outputs
+
+### Pollinations AI
+
+Used for:
+
+- AI Image Generation
+- Marketing creatives
+
+### MoviePy
+
+Used for:
+
+- Promotional Reel Generation
+- Video Rendering
+
+---
+
+# 🛡️ Known Limitations
+
+- Video generation uses programmatically rendered text animations to maintain zero operational cost.
+- ReviewerAgent currently logs warnings instead of blocking execution.
+- Image generation depends on the availability of the Pollinations service.
+
+---
+
+# 🔮 Future Improvements
+
+- LangGraph-based Agent Orchestration
+- Human-in-the-loop Review System
+- Instagram Graph API Integration
+- Vision-based AI Quality Review
+- Multi-platform Publishing (Instagram, LinkedIn, X)
+- Analytics Dashboard
+- Campaign Performance Tracking
+- Retrieval-Augmented Generation (RAG) Support
+
+---
+
+
+
+## ⭐ Assignment Highlights
+
+- Multi-Agent AI System
+- Autonomous Decision Making
+- LLM Integration
+- AI Image Generation
+- Automated Video Creation
+- Modular Python Architecture
+- Budget-Constrained Execution
+- Production-Oriented Code Structure
+- Comprehensive Logging
+- End-to-End Marketing Content Automation
+
+---
+
+**Thank you for reviewing this project!**

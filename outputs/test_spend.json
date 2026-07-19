@@ -1,0 +1,12 @@
+{
+    "total_spend": 10.0,
+    "budget_limit": 100.0,
+    "expenses": [
+        {
+            "timestamp": "2026-07-17T22:45:50.035480",
+            "service": "Test API",
+            "cost_inr": 10.0,
+            "description": "Test"
+        }
+    ]
+}

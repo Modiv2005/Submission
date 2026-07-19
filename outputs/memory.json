@@ -1,0 +1,183 @@
+{
+    "business_context": {
+        "name": "Cozy Cafe",
+        "category": "Cafe",
+        "location": "Downtown",
+        "main_products": [
+            "Coffee",
+            "Pastries"
+        ],
+        "target_customers": "Locals",
+        "tone": "Friendly",
+        "commercial_goal": "Increase footfall"
+    },
+    "synthetic_source_pack": "\n        SYNTHETIC SOURCE PACK:\n        Business Name: Cozy Cafe\n        Category: Cafe\n        Location: Downtown\n        Products: Coffee, Pastries\n        Customers: Locals\n        Tone: Friendly\n        Goal: Increase footfall\n        \n        Sample Website Text:\n        Welcome to Cozy Cafe! We specialize in providing the best Coffee, Pastries in Downtown. \n        Our goal is to serve Locals with a Friendly touch.\n        ",
+    "business_analysis": {
+        "summary": "Local cafe selling coffee.",
+        "strongest_offers": [
+            "Morning combo"
+        ],
+        "trust_signals": [
+            "Freshly baked"
+        ],
+        "customer_needs": [
+            "Quick coffee"
+        ],
+        "opportunities": [
+            "Winter specials"
+        ],
+        "assumptions": [
+            "None"
+        ]
+    },
+    "marketing_strategy": {
+        "objective": "Brand awareness",
+        "target_audience": "Office workers",
+        "content_pillars": [
+            "Coffee",
+            "Community",
+            "Quality"
+        ],
+        "key_messages": [
+            "Best coffee in town"
+        ],
+        "tone": "Warm",
+        "calls_to_action": [
+            "Visit us"
+        ],
+        "format_mix": "5 posts, 2 videos",
+        "reasoning": "Simple and effective"
+    },
+    "weekly_plan": {
+        "items": [
+            {
+                "day": 1,
+                "format": "static",
+                "topic": "Topic 1",
+                "hook": "Hook",
+                "content_idea": "Idea",
+                "caption_direction": "Caption",
+                "call_to_action": "Visit",
+                "business_insight": "Insight"
+            },
+            {
+                "day": 2,
+                "format": "static",
+                "topic": "Topic 2",
+                "hook": "Hook",
+                "content_idea": "Idea",
+                "caption_direction": "Caption",
+                "call_to_action": "Visit",
+                "business_insight": "Insight"
+            },
+            {
+                "day": 3,
+                "format": "static",
+                "topic": "Topic 3",
+                "hook": "Hook",
+                "content_idea": "Idea",
+                "caption_direction": "Caption",
+                "call_to_action": "Visit",
+                "business_insight": "Insight"
+            },
+            {
+                "day": 4,
+                "format": "static",
+                "topic": "Topic 4",
+                "hook": "Hook",
+                "content_idea": "Idea",
+                "caption_direction": "Caption",
+                "call_to_action": "Visit",
+                "business_insight": "Insight"
+            },
+            {
+                "day": 5,
+                "format": "static",
+                "topic": "Topic 5",
+                "hook": "Hook",
+                "content_idea": "Idea",
+                "caption_direction": "Caption",
+                "call_to_action": "Visit",
+                "business_insight": "Insight"
+            },
+            {
+                "day": 6,
+                "format": "video",
+                "topic": "Topic 6",
+                "hook": "Hook",
+                "content_idea": "Idea",
+                "caption_direction": "Caption",
+                "call_to_action": "Visit",
+                "business_insight": "Insight"
+            },
+            {
+                "day": 7,
+                "format": "video",
+                "topic": "Topic 7",
+                "hook": "Hook",
+                "content_idea": "Idea",
+                "caption_direction": "Caption",
+                "call_to_action": "Visit",
+                "business_insight": "Insight"
+            }
+        ]
+    },
+    "generated_assets": {
+        "posts": [],
+        "videos": [
+            {
+                "day": 1,
+                "format": "static",
+                "title": "Title",
+                "hook": "Hook",
+                "caption": "Caption",
+                "cta": "CTA",
+                "hashtags": "#cafe",
+                "design_prompt": "A cozy cafe",
+                "video_prompt": "A cozy cafe",
+                "reasoning": "Reason",
+                "file_path": "outputs/day_6_reel.mp4"
+            },
+            {
+                "day": 1,
+                "format": "static",
+                "title": "Title",
+                "hook": "Hook",
+                "caption": "Caption",
+                "cta": "CTA",
+                "hashtags": "#cafe",
+                "design_prompt": "A cozy cafe",
+                "video_prompt": "A cozy cafe",
+                "reasoning": "Reason",
+                "file_path": "outputs/day_7_reel.mp4"
+            },
+            {
+                "day": 1,
+                "format": "static",
+                "title": "Title",
+                "hook": "Hook",
+                "caption": "Caption",
+                "cta": "CTA",
+                "hashtags": "#cafe",
+                "design_prompt": "A cozy cafe",
+                "video_prompt": "A cozy cafe",
+                "reasoning": "Reason",
+                "file_path": "outputs/day_6_reel.mp4"
+            },
+            {
+                "day": 1,
+                "format": "static",
+                "title": "Title",
+                "hook": "Hook",
+                "caption": "Caption",
+                "cta": "CTA",
+                "hashtags": "#cafe",
+                "design_prompt": "A cozy cafe",
+                "video_prompt": "A cozy cafe",
+                "reasoning": "Reason",
+                "file_path": "outputs/day_7_reel.mp4"
+            }
+        ]
+    },
+    "status": "initialized"
+}

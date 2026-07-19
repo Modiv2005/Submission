@@ -1,0 +1,17 @@
+{
+    "business_context": null,
+    "synthetic_source_pack": null,
+    "business_analysis": null,
+    "marketing_strategy": null,
+    "weekly_plan": null,
+    "generated_assets": {
+        "posts": [
+            {
+                "id": 1
+            }
+        ],
+        "videos": []
+    },
+    "status": "initialized",
+    "test_key": "test_value"
+}

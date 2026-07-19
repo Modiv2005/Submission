@@ -1,0 +1,462 @@
+{
+    "total_spend": 0.05500000000000004,
+    "budget_limit": 100.0,
+    "expenses": [
+        {
+            "timestamp": "2026-07-17T22:45:54.019594",
+            "service": "Gemini API",
+            "cost_inr": 0.001,
+            "description": "TestAgent inference attempt 1"
+        },
+        {
+            "timestamp": "2026-07-17T22:46:47.894975",
+            "service": "Gemini API",
+            "cost_inr": 0.001,
+            "description": "SyntheticContextAgent inference attempt 1"
+        },
+        {
+            "timestamp": "2026-07-17T22:46:48.903430",
+            "service": "Gemini API",
+            "cost_inr": 0.001,
+            "description": "BusinessAnalysisAgent inference attempt 1"
+        },
+        {
+            "timestamp": "2026-07-17T22:46:49.906808",
+            "service": "Gemini API",
+            "cost_inr": 0.001,
+            "description": "MarketingStrategyAgent inference attempt 1"
+        },
+        {
+            "timestamp": "2026-07-17T22:46:50.915208",
+            "service": "Gemini API",
+            "cost_inr": 0.001,
+            "description": "WeeklyPlannerAgent inference attempt 1"
+        },
+        {
+            "timestamp": "2026-07-17T22:46:51.924824",
+            "service": "Gemini API",
+            "cost_inr": 0.001,
+            "description": "ContentGenerationAgent inference attempt 1"
+        },
+        {
+            "timestamp": "2026-07-17T22:46:52.931221",
+            "service": "Pollinations API",
+            "cost_inr": 0.0,
+            "description": "Image generation for Day 1"
+        },
+        {
+            "timestamp": "2026-07-17T22:47:02.418913",
+            "service": "Gemini API",
+            "cost_inr": 0.001,
+            "description": "ReviewerAgent inference attempt 1"
+        },
+        {
+            "timestamp": "2026-07-17T22:47:03.425746",
+            "service": "Gemini API",
+            "cost_inr": 0.001,
+            "description": "ContentGenerationAgent inference attempt 1"
+        },
+        {
+            "timestamp": "2026-07-17T22:47:04.432924",
+            "service": "Pollinations API",
+            "cost_inr": 0.0,
+            "description": "Image generation for Day 2"
+        },
+        {
+            "timestamp": "2026-07-17T22:47:04.759139",
+            "service": "Gemini API",
+            "cost_inr": 0.001,
+            "description": "ReviewerAgent inference attempt 1"
+        },
+        {
+            "timestamp": "2026-07-17T22:47:05.766121",
+            "service": "Gemini API",
+            "cost_inr": 0.001,
+            "description": "ContentGenerationAgent inference attempt 1"
+        },
+        {
+            "timestamp": "2026-07-17T22:47:06.772392",
+            "service": "Pollinations API",
+            "cost_inr": 0.0,
+            "description": "Image generation for Day 3"
+        },
+        {
+            "timestamp": "2026-07-17T22:47:07.024098",
+            "service": "Gemini API",
+            "cost_inr": 0.001,
+            "description": "ReviewerAgent inference attempt 1"
+        },
+        {
+            "timestamp": "2026-07-17T22:47:08.030985",
+            "service": "Gemini API",
+            "cost_inr": 0.001,
+            "description": "ContentGenerationAgent inference attempt 1"
+        },
+        {
+            "timestamp": "2026-07-17T22:47:09.037577",
+            "service": "Pollinations API",
+            "cost_inr": 0.0,
+            "description": "Image generation for Day 4"
+        },
+        {
+            "timestamp": "2026-07-17T22:47:09.274160",
+            "service": "Gemini API",
+            "cost_inr": 0.001,
+            "description": "ReviewerAgent inference attempt 1"
+        },
+        {
+            "timestamp": "2026-07-17T22:47:10.280579",
+            "service": "Gemini API",
+            "cost_inr": 0.001,
+            "description": "ContentGenerationAgent inference attempt 1"
+        },
+        {
+            "timestamp": "2026-07-17T22:47:11.287762",
+            "service": "Pollinations API",
+            "cost_inr": 0.0,
+            "description": "Image generation for Day 5"
+        },
+        {
+            "timestamp": "2026-07-17T22:47:11.533106",
+            "service": "Gemini API",
+            "cost_inr": 0.001,
+            "description": "ReviewerAgent inference attempt 1"
+        },
+        {
+            "timestamp": "2026-07-17T22:47:12.540141",
+            "service": "Gemini API",
+            "cost_inr": 0.001,
+            "description": "ContentGenerationAgent inference attempt 1"
+        },
+        {
+            "timestamp": "2026-07-17T22:47:13.547630",
+            "service": "Local Video Gen",
+            "cost_inr": 0.0,
+            "description": "Video generation for Day 6"
+        },
+        {
+            "timestamp": "2026-07-17T22:47:13.568134",
+            "service": "Gemini API",
+            "cost_inr": 0.001,
+            "description": "ReviewerAgent inference attempt 1"
+        },
+        {
+            "timestamp": "2026-07-17T22:47:14.576539",
+            "service": "Gemini API",
+            "cost_inr": 0.001,
+            "description": "ContentGenerationAgent inference attempt 1"
+        },
+        {
+            "timestamp": "2026-07-17T22:47:15.583166",
+            "service": "Local Video Gen",
+            "cost_inr": 0.0,
+            "description": "Video generation for Day 7"
+        },
+        {
+            "timestamp": "2026-07-17T22:47:15.600523",
+            "service": "Gemini API",
+            "cost_inr": 0.001,
+            "description": "ReviewerAgent inference attempt 1"
+        },
+        {
+            "timestamp": "2026-07-17T22:47:39.044285",
+            "service": "Gemini API",
+            "cost_inr": 0.001,
+            "description": "SyntheticContextAgent inference attempt 1"
+        },
+        {
+            "timestamp": "2026-07-17T22:47:40.053213",
+            "service": "Gemini API",
+            "cost_inr": 0.001,
+            "description": "BusinessAnalysisAgent inference attempt 1"
+        },
+        {
+            "timestamp": "2026-07-17T22:47:41.059911",
+            "service": "Gemini API",
+            "cost_inr": 0.001,
+            "description": "MarketingStrategyAgent inference attempt 1"
+        },
+        {
+            "timestamp": "2026-07-17T22:47:42.068559",
+            "service": "Gemini API",
+            "cost_inr": 0.001,
+            "description": "WeeklyPlannerAgent inference attempt 1"
+        },
+        {
+            "timestamp": "2026-07-17T22:47:43.077263",
+            "service": "Gemini API",
+            "cost_inr": 0.001,
+            "description": "ContentGenerationAgent inference attempt 1"
+        },
+        {
+            "timestamp": "2026-07-17T22:47:44.083974",
+            "service": "Pollinations API",
+            "cost_inr": 0.0,
+            "description": "Image generation for Day 1"
+        },
+        {
+            "timestamp": "2026-07-17T22:47:44.688261",
+            "service": "Gemini API",
+            "cost_inr": 0.001,
+            "description": "ReviewerAgent inference attempt 1"
+        },
+        {
+            "timestamp": "2026-07-17T22:47:45.695114",
+            "service": "Gemini API",
+            "cost_inr": 0.001,
+            "description": "ContentGenerationAgent inference attempt 1"
+        },
+        {
+            "timestamp": "2026-07-17T22:47:46.700828",
+            "service": "Pollinations API",
+            "cost_inr": 0.0,
+            "description": "Image generation for Day 2"
+        },
+        {
+            "timestamp": "2026-07-17T22:47:46.969199",
+            "service": "Gemini API",
+            "cost_inr": 0.001,
+            "description": "ReviewerAgent inference attempt 1"
+        },
+        {
+            "timestamp": "2026-07-17T22:47:47.976105",
+            "service": "Gemini API",
+            "cost_inr": 0.001,
+            "description": "ContentGenerationAgent inference attempt 1"
+        },
+        {
+            "timestamp": "2026-07-17T22:47:48.983449",
+            "service": "Pollinations API",
+            "cost_inr": 0.0,
+            "description": "Image generation for Day 3"
+        },
+        {
+            "timestamp": "2026-07-17T22:47:49.231649",
+            "service": "Gemini API",
+            "cost_inr": 0.001,
+            "description": "ReviewerAgent inference attempt 1"
+        },
+        {
+            "timestamp": "2026-07-17T22:47:50.238737",
+            "service": "Gemini API",
+            "cost_inr": 0.001,
+            "description": "ContentGenerationAgent inference attempt 1"
+        },
+        {
+            "timestamp": "2026-07-17T22:47:51.246287",
+            "service": "Pollinations API",
+            "cost_inr": 0.0,
+            "description": "Image generation for Day 4"
+        },
+        {
+            "timestamp": "2026-07-17T22:47:51.505131",
+            "service": "Gemini API",
+            "cost_inr": 0.001,
+            "description": "ReviewerAgent inference attempt 1"
+        },
+        {
+            "timestamp": "2026-07-17T22:47:52.512086",
+            "service": "Gemini API",
+            "cost_inr": 0.001,
+            "description": "ContentGenerationAgent inference attempt 1"
+        },
+        {
+            "timestamp": "2026-07-17T22:47:53.519531",
+            "service": "Pollinations API",
+            "cost_inr": 0.0,
+            "description": "Image generation for Day 5"
+        },
+        {
+            "timestamp": "2026-07-17T22:47:53.780507",
+            "service": "Gemini API",
+            "cost_inr": 0.001,
+            "description": "ReviewerAgent inference attempt 1"
+        },
+        {
+            "timestamp": "2026-07-17T22:47:54.785225",
+            "service": "Gemini API",
+            "cost_inr": 0.001,
+            "description": "ContentGenerationAgent inference attempt 1"
+        },
+        {
+            "timestamp": "2026-07-17T22:47:55.788485",
+            "service": "Local Video Gen",
+            "cost_inr": 0.0,
+            "description": "Video generation for Day 6"
+        },
+        {
+            "timestamp": "2026-07-17T22:48:01.982191",
+            "service": "Gemini API",
+            "cost_inr": 0.001,
+            "description": "ReviewerAgent inference attempt 1"
+        },
+        {
+            "timestamp": "2026-07-17T22:48:02.990900",
+            "service": "Gemini API",
+            "cost_inr": 0.001,
+            "description": "ContentGenerationAgent inference attempt 1"
+        },
+        {
+            "timestamp": "2026-07-17T22:48:03.993420",
+            "service": "Local Video Gen",
+            "cost_inr": 0.0,
+            "description": "Video generation for Day 7"
+        },
+        {
+            "timestamp": "2026-07-17T22:48:10.143065",
+            "service": "Gemini API",
+            "cost_inr": 0.001,
+            "description": "ReviewerAgent inference attempt 1"
+        },
+        {
+            "timestamp": "2026-07-19T22:10:00.418389",
+            "service": "Gemini API",
+            "cost_inr": 0.001,
+            "description": "SyntheticContextAgent inference attempt 1"
+        },
+        {
+            "timestamp": "2026-07-19T22:10:01.427581",
+            "service": "Gemini API",
+            "cost_inr": 0.001,
+            "description": "BusinessAnalysisAgent inference attempt 1"
+        },
+        {
+            "timestamp": "2026-07-19T22:10:02.433400",
+            "service": "Gemini API",
+            "cost_inr": 0.001,
+            "description": "MarketingStrategyAgent inference attempt 1"
+        },
+        {
+            "timestamp": "2026-07-19T22:10:03.442767",
+            "service": "Gemini API",
+            "cost_inr": 0.001,
+            "description": "WeeklyPlannerAgent inference attempt 1"
+        },
+        {
+            "timestamp": "2026-07-19T22:10:04.453905",
+            "service": "Gemini API",
+            "cost_inr": 0.001,
+            "description": "ContentGenerationAgent inference attempt 1"
+        },
+        {
+            "timestamp": "2026-07-19T22:10:05.460791",
+            "service": "Pollinations API",
+            "cost_inr": 0.0,
+            "description": "Image generation for Day 1"
+        },
+        {
+            "timestamp": "2026-07-19T22:10:06.218603",
+            "service": "Gemini API",
+            "cost_inr": 0.001,
+            "description": "ReviewerAgent inference attempt 1"
+        },
+        {
+            "timestamp": "2026-07-19T22:10:07.226137",
+            "service": "Gemini API",
+            "cost_inr": 0.001,
+            "description": "ContentGenerationAgent inference attempt 1"
+        },
+        {
+            "timestamp": "2026-07-19T22:10:08.234710",
+            "service": "Pollinations API",
+            "cost_inr": 0.0,
+            "description": "Image generation for Day 2"
+        },
+        {
+            "timestamp": "2026-07-19T22:10:08.644647",
+            "service": "Gemini API",
+            "cost_inr": 0.001,
+            "description": "ReviewerAgent inference attempt 1"
+        },
+        {
+            "timestamp": "2026-07-19T22:10:09.651904",
+            "service": "Gemini API",
+            "cost_inr": 0.001,
+            "description": "ContentGenerationAgent inference attempt 1"
+        },
+        {
+            "timestamp": "2026-07-19T22:10:10.657100",
+            "service": "Pollinations API",
+            "cost_inr": 0.0,
+            "description": "Image generation for Day 3"
+        },
+        {
+            "timestamp": "2026-07-19T22:10:11.002364",
+            "service": "Gemini API",
+            "cost_inr": 0.001,
+            "description": "ReviewerAgent inference attempt 1"
+        },
+        {
+            "timestamp": "2026-07-19T22:10:12.009239",
+            "service": "Gemini API",
+            "cost_inr": 0.001,
+            "description": "ContentGenerationAgent inference attempt 1"
+        },
+        {
+            "timestamp": "2026-07-19T22:10:13.017146",
+            "service": "Pollinations API",
+            "cost_inr": 0.0,
+            "description": "Image generation for Day 4"
+        },
+        {
+            "timestamp": "2026-07-19T22:10:13.369528",
+            "service": "Gemini API",
+            "cost_inr": 0.001,
+            "description": "ReviewerAgent inference attempt 1"
+        },
+        {
+            "timestamp": "2026-07-19T22:10:14.374580",
+            "service": "Gemini API",
+            "cost_inr": 0.001,
+            "description": "ContentGenerationAgent inference attempt 1"
+        },
+        {
+            "timestamp": "2026-07-19T22:10:15.377785",
+            "service": "Pollinations API",
+            "cost_inr": 0.0,
+            "description": "Image generation for Day 5"
+        },
+        {
+            "timestamp": "2026-07-19T22:10:15.712508",
+            "service": "Gemini API",
+            "cost_inr": 0.001,
+            "description": "ReviewerAgent inference attempt 1"
+        },
+        {
+            "timestamp": "2026-07-19T22:10:16.714680",
+            "service": "Gemini API",
+            "cost_inr": 0.001,
+            "description": "ContentGenerationAgent inference attempt 1"
+        },
+        {
+            "timestamp": "2026-07-19T22:10:17.721347",
+            "service": "Local Video Gen",
+            "cost_inr": 0.0,
+            "description": "Video generation for Day 6"
+        },
+        {
+            "timestamp": "2026-07-19T22:10:23.936559",
+            "service": "Gemini API",
+            "cost_inr": 0.001,
+            "description": "ReviewerAgent inference attempt 1"
+        },
+        {
+            "timestamp": "2026-07-19T22:10:24.945875",
+            "service": "Gemini API",
+            "cost_inr": 0.001,
+            "description": "ContentGenerationAgent inference attempt 1"
+        },
+        {
+            "timestamp": "2026-07-19T22:10:25.951831",
+            "service": "Local Video Gen",
+            "cost_inr": 0.0,
+            "description": "Video generation for Day 7"
+        },
+        {
+            "timestamp": "2026-07-19T22:10:32.077744",
+            "service": "Gemini API",
+            "cost_inr": 0.001,
+            "description": "ReviewerAgent inference attempt 1"
+        }
+    ]
+}
